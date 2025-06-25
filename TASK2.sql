@@ -1,0 +1,18 @@
+use onlineC;
+insert into student values(6,"kajol","f","9789462387","kajol4525@gmail.com");
+insert into student values(9,"kalyan","m","7989462387","kalyan525@gmail.com");
+select * from student;
+delete from student WHERE id="5";
+delete from student WHERE id="9";
+UPDATE student set name="krishna",sex="m" WHERE id=6;
+UPDATE student set name="rishiths",sex="f" WHERE id=2;
+select * from student;
+insert into course values("25csd","datamining");
+select * from course;
+insert into course values("100ps","policetraining");
+delete from course WHERE course_id="100ps";
+UPDATE course set title="realityV" WHERE course_id="22cse";
+insert into instructor values("89","sangeetha","sangi9378@gmail.com");
+select * from instructor;
+UPDATE instructor set name="raghava" WHERE inctructor_id="84";
+delete from instructor WHERE inctructor_id="89";
